@@ -1,4 +1,20 @@
 balsamiq free check
+
+
+
+overview:
+web server - apache
+client side code - web broswer code like javascript
+host side code - php
+database - SQL
+
+HTML - not a programming language, it's a mark up language
+CSS - makes the webpage look nice, style!
+
+
+
+
+
 internet processes:
 DNS is used in the look up process
 
