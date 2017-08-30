@@ -1,0 +1,57 @@
+---338 junk---
+use javac to run a java program in terminal
+
+name of file and public class name must match - HelloWorld.java
+
+always start class names with uppercase, all else is lower
+
+---opening quiz---
+the 4 components: dynamics
+client side programming language
+server side lang
+database server
+web server
+
+HTML creates the actual content of the page
+
+<div> creates the layout of the web page
+<h1> creates the biggest header
+
+URL can ID any type of resource on the webpage,
+it consists of 4 parts but 2 can be ommitted
+
+
+---------
+semantic tags are used as descriptors for other people
+to read your code
+aka <nav>, <div>
+
+<ul> is a non-semantic tag b/c it does not label a section
+but rather provides a function, is also a block element
+
+inline tags only effect whatever is between the <></>
+aka <strong>
+
+block tags consume an entire space
+aka <h2>
+
+CSS <style>
+x = some tag
+X {
+display: inline-block;
+}
+
+use /* to block out stuff in css
+<!-- --> blocks out stuff in HTML
+
+CSS properties, w3schools is a good doc
+pixabay free images
+morguefile
+
+inline commands that create things take precidence over style tags
+UNLESS -> you add !important in the line of style
+
+W3C sets the standards of the web and HTML5
+-> use W3C validator and heroku URL to determine validity
+
+
