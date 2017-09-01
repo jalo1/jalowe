@@ -4,6 +4,8 @@ My cst336 readme
 
 ------
 
+balsamiq free chech!
+
 internet processes:
 DNS is used in the look up process
 
