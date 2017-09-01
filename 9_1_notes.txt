@@ -1,0 +1,21 @@
+to import styles from another webpage, use
+
+@import url("https://xxx")
+CSS must match the id's of the semantic tags you are using!
+or
+<link href>
+-> must be placed outside style tags!
+
+
+only use tables for data, not design!
+-> too hard to get info otherwise
+
+webforms are external forms!
+-> google fonts
+
+<hr> represents a theme break
+
+question:
+look at code to see font change and using .x thing
+
+            <link href="css/styles.css" rel
