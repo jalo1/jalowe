@@ -3,6 +3,8 @@ body {
     color: grey;
 }
 h1 {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;    font-size: 4em;
+    margin-bottom: 0px;
     background-color: blue;
 }
 
