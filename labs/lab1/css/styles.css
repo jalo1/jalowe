@@ -2,3 +2,66 @@ body {
     background-color: black;
     color: grey;
 }
+h1 {
+    background-color: blue;
+}
+
+#home {
+    background-color: red;
+}
+
+.menuitem {
+    background-color: orange;
+}
+
+header,main,nav,footer {
+    text-align: center;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#pic {
+    float: left;
+}
+
+footer {
+    font-size: .8em;
+    clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00 !important;
+}
+
+.table-row {
+    background-color: #753900 !important;
+}
+
+u1 {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: yellow;
+}
