@@ -1,0 +1,50 @@
+h1 {
+    color: yellow;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+div {
+    display:inline-block;
+}
+
+
+#text {
+    border-bottom: 2px white solid;
+    font-family: 'Pacifico', cursive;
+}
+
+#pictures1{
+    border-radius: 30px 1px 1px 1px;
+
+}
+
+#pictures2 {
+     border-radius: 1px 30px 1px 1px;
+
+}
+
+
+#pictures3 {
+    border-radius: 1px 1px 1px 30px;
+ 
+}
+
+#pictures4 {
+    border-radius: 1px 1px 30px 1px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
