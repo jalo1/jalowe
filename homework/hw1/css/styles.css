@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+    background-color: orange;
+    font-size: 5em;
+    color:black;
+    text-shadow:black;
+}
+header,body,nav,footer,main {
+    text-align: center;
+}
+header {
+    padding: 15px;
+}
+title{
+    font-size: 1em;
+}
+nav{
+    padding-bottom: 2px;
+}
+footer {
+    padding-top: 15px;
+}
+main {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+main:hover{
+    font-size: 3em;
+    transition: 1.5s;
+}
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    font-size: 3em;
+    transition: 1.5s;
+}
+.link {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+small {
+    font-size: .7em;
+}
+details{
+    font-size: 1.5em;
+}
+#main {
+    margin-top: 0px;
+}
+#_1{
+    margin-top: 5px;
+}
+#_2{
+    margin-top: 10px;
+}
+#_3{
+    margin-top: 15px;
+}
+#id{
+    color: blue;
+}
+#course{
+    color: red;
+}
