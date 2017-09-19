@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color: black;
+}
+div {
+    background-color: white;
+    color: black;
+}
+#top {
+    margin-top: 25px;
+}
+#score {
+    margin-top: 25px;
+}
+#images {
+    margin-top: 25px;
+}
+#rollB {
+    margin-top: 50px;
+}
+footer{
+    margin-top: 200px;
+}

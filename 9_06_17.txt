@@ -1,0 +1,30 @@
+inline style, it's in the html itself
+
+table, tr, td, numbers , /, /, /
+
+span is an inline element
+
+div is not a semantic tag, doess not tell you what is in the block or where it goes
+
+
+when specificing things, if you start with a /
+"/img/x.x"
+then it thinks you're starting from the root folder
+vs
+"img/x.x"
+
+valid variable name for php can't have number at start
+$seven7 = "ok";
+
+can not have double nested quotes
+1. use single quotes inside the double
+2. escaping the double quotes with a \
+\"exc\"
+
+using numbers to label picture names is a trouble for visually impaired people
+
+ideal situation, make an array of images to choose from
+
+in php, use  .  instead of + to add strings,
+-> useful for combining html tags onto things
+

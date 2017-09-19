@@ -51,6 +51,11 @@ td strong {
     color: orange;
 }
 
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
 #table-header {
     background-color: #351a00 !important;
 }
@@ -67,3 +72,4 @@ u1 {
 .hobby {
     color: yellow;
 }
+
