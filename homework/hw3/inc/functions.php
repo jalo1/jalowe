@@ -1,42 +1,31 @@
 <?php 
 
-function dispDice() {
-$d = rand(1,6);
-    echo "<img src='img/d".$d.".jpg' width='100' alt='d".$d."' title='d".$d."' />";
-return($d);
-}
-
-function score($score1,$score2) {
+function roll() {
+    $pool = array();
+    $successPool = array();
+    echo "<div id='dice'>";
+    for ($i=0;$i<5;$i++) {
+        $d = rand(1,6);
+        array_push($pool,$d);
+        if ($pool[$i]>4){
+           array_push($successPool,$pool[$i]);
+        }
+    }
     
-    echo "Roll is ".$score1+$score2."!";
-    
-    if($score1 == $score2) {
-        return(true);
+    if (count($successPool) > 2) {
+        echo "major success!";
     }
     else {
-        return(false);
+        echo "Degree of Success: ".count($successPool)." !";
     }
+    echo "</div>";
+disp($pool);
 }
 
-function isDouble($double) {
-    if($double == true) {
-        echo "DOUBLES!";
+function disp($pool){
+    sort($pool);
+    for ($i=0;$i<5;$i++){
+        echo "<img src='img/d".$pool[$i].".jpg' width='100' alt='d".$d."' title='d".$d."' />";
     }
 }
-
-$diceNumber = 0;
-    if ($diceNumber == 1) {
-        
-    } else if($diceNumber == 2) {
-        
-    } else if($diceNumber == 3) {
-        
-    } else if($diceNumber == 4) {
-        
-    } else if($diceNumber == 5) {
-        
-    } else {
-        
-    }
-
 ?>

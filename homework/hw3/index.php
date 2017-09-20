@@ -1,14 +1,5 @@
 <?php
 include 'inc/functions.php';
-
-
-$dice = array(1,2,3,4,5,6);
-
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -23,45 +14,22 @@ $dice = array(1,2,3,4,5,6);
     
     <body>
         <div id="top">
-            <h1> This is something almost like craps! </h1>
+            <h1> Dice Pool Roller </h1>
         </div>
         
         <div id="images">
             <images>
                 <?php
-                    $score1 = dispDice();
-                    $score2 = dispDice();
+                    $pool = roll();
                 ?>
             </images>
         </div>
-
-        <div id="score">
-             <score>
-                <?php
-                    $double = score($score1,$score2);
-                ?>
-            </score>
-            
-            <double>
-                <?php
-                    isDouble($double);
-                ?>
-            </double>
-        </div>
-
-
-        <div id="rollB">
-            <roll>
-                roll
-            </roll>
-        </div>
-        
     </body>
 
 <hr>
 
     <footer>
-        temp
+        5+ is a success in dice pool rolling, 3 or more success is a critical roll!
     </footer>
 
 </html>

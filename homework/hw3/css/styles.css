@@ -1,21 +1,26 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 div {
-    background-color: white;
-    color: black;
+    
 }
-#top {
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+    background-color: orange;
+    font-size: 5em;
+    color:black;
+    text-shadow:black;
+}
+header,body,div,footer,main {
+    text-align: center;
+}
+#dice{
     margin-top: 25px;
+
 }
-#score {
-    margin-top: 25px;
-}
-#images {
-    margin-top: 25px;
-}
-#rollB {
+#top{
     margin-top: 50px;
 }
 footer{
