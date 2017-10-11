@@ -44,7 +44,7 @@ if(!empty($_GET['category'])) {
 
 <div>
     for some reason my radio and categories do not function, enter "d6" or "d8" into
-    the search bar.
+    the search bar. Typing values into the URL does though!
 </div>
 
 <form>
