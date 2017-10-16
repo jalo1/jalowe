@@ -20,17 +20,14 @@ function getDeviceTypes() {
     }
 }
 
-
 function displayDevices(){
     global $conn;
     
     $sql = "SELECT * FROM tc_device WHERE 1 ";
-    
-    
+
     if (isset($_GET['submit'])){
         
         $namedParameters = array();
-        
         
         if (!empty($_GET['deviceName'])) {
             
@@ -56,7 +53,6 @@ function displayDevices(){
              $sql .= " AND status = 'A'"; //using named parameters
          }
          
-         
          if (isset($_GET['orderBy'])) {
              
              if($_GET['orderBy'] == "name") {
@@ -66,16 +62,7 @@ function displayDevices(){
                  $sql .= " ORDER BY price ASC";
              }
          }
-         
-        
-        
-        
-    }//endIf (isset)
-    
-    //If user types a deviceName
-     //   "AND deviceName LIKE '%$_GET['deviceName']%'";
-    //if user selects device type
-      //  "AND deviceType = '$_GET['deviceType']";
+}
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
@@ -92,14 +79,15 @@ function displayDevices(){
 
 ?>
 
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Lab 5: Device Search </title>
+        <meta charset="utf-8" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        
         <h1> Technology Center: Checkout System </h1>
         
         <form>
