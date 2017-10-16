@@ -28,3 +28,12 @@ ideal situation, make an array of images to choose from
 in php, use  .  instead of + to add strings,
 -> useful for combining html tags onto things
 
+---
+9/20
+php arrays start a 0, just like C
+
+array_push always adds element to the end
+using array with a blank [] adds element to the end as well
+
+if you try to call an indexed array on an associated array, nothing will happen
+aka

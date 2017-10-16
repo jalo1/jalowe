@@ -32,3 +32,12 @@
 [20-Sep-2017 01:05:34 UTC] PHP Fatal error:  Call to undefined function dispNum() in /home/ubuntu/workspace/jalowe/homework/hw3/index.php on line 33
 [20-Sep-2017 01:05:34 UTC] PHP Stack trace:
 [20-Sep-2017 01:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/homework/hw3/index.php:0
+[11-Oct-2017 18:03:54 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/jalowe/homework/hw4/index.php on line 66
+[11-Oct-2017 18:03:54 UTC] PHP Stack trace:
+[11-Oct-2017 18:03:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/homework/hw4/index.php:0
+[11-Oct-2017 18:04:00 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/jalowe/homework/hw4/index.php on line 66
+[11-Oct-2017 18:04:00 UTC] PHP Stack trace:
+[11-Oct-2017 18:04:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/homework/hw4/index.php:0
+[11-Oct-2017 18:38:10 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/jalowe/homework/hw4/index.php on line 18
+[11-Oct-2017 18:38:10 UTC] PHP Stack trace:
+[11-Oct-2017 18:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/homework/hw4/index.php:0

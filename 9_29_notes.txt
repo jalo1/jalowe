@@ -1,0 +1,95 @@
+grap api url and insert it into the url spot on the api .php file
+replace query with $keyword (it's xbox)
+
+json,
+start with a curly bracket a key and a value
+
+xml
+
+<query>
+xbox
+</query>
+
+<categoryid>
+123
+</categoryId>
+
+ternary operator
+
+-------------------------------
+SQL commands:
+mysql-ctl install
+mysql-ctl start
+mysql -u root
+-------------------------------
+
+watch out for arrays called outside of functions, if they aren't
+global then they can't be accessed. Won't be an error though
+
+if you don't specify a method it will be the GET method
+
+database stuff:
+data integrity - user mistakes over time if given the option to put
+the same thing in all the time
+data redundency - same value in a column a lot
+
+normalization: reduce redundency and increase integrity
+
+in a large database, it's faster for primary keys to be small integers then strings
+
+normal forms:
+1 - every table gets a primary key, atomic values (aka firstName, lastName)
+
+Conventions:
+first field should be the primary key
+
+relationships:
+1 to 1, nothing special
+one to many
+1 to N, reciving end will get a foreign key of the other's primary key
+many to many
+N to M, a seperate relationtable containing each tables primary key
+if thers multple N to M then you can sometimes jam many releationships into
+the same relationship table
+
+varchar: used when you don't know in advance how long the word is
+char: known in advance
+
+
+
+--------------------------------
+only use left or right join when you need exlicitly all the information from one table or the other,
+such as trying to find all departments that don't have a staff or something
+
+use the command "lalalal :deviceName lals" to have safe placeholder
+-> use this when getting form information to interact with sql tables
+have an associatvie arry set the value of :deviceName
+then insert that array into the $stmt -> execute($);
+
+use $sql .= "asdf" to add on to the same strings
+
+use single quotes in _GET commands ['x']
+
+$x = array();
+$x['y'] = "now it's an associate array";
+
+
+with iFrame, in the <a href> url call, set a target variable = "x"
+then set the <iFrame name= "x">
+
+
+
+
+
+
+
+
+
+-----------------------------------
+input type text is always part of the URL
+
+
+
+
+http://graduateschool.usc.edu/fellowships/
+http://www.chronicle.com/article/Becoming-a-Successful/66133

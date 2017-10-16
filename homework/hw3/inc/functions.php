@@ -22,6 +22,8 @@ function roll() {
 disp($pool);
 }
 
+
+
 function disp($pool){
     sort($pool);
     for ($i=0;$i<5;$i++){
