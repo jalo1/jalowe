@@ -54,7 +54,7 @@ if(!empty($_GET['category'])) {
     
     <input type="submit" value="Roll!">
     
-       <input type="radio" name="dice" placeholder ="dice" value="d6"  id="ld6">
+    <input type="radio" name="dice" placeholder ="dice" value="d6"  id="ld6">
     <label for="ld6"> d6 </label>
     
     <input type="radio"  name="dice" placeholder ="dice" value="d8"  id="ld8">

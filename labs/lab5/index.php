@@ -102,7 +102,7 @@ function displayDevices(){
             <label for="available"> Available </label>
             
             <br>
-            Order by:
+            Order By:
             <input type="radio" name="orderBy" id="orderByName" value="name"/> 
              <label for="orderByName"> Name </label>
             <input type="radio" name="orderBy" id="orderByPrice" value="price"/> 
