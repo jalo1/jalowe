@@ -53,6 +53,14 @@ if(!empty($_GET['category'])) {
     <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
     
     <input type="submit" value="Roll!">
+    
+       <input type="radio" name="dice" placeholder ="dice" value="d6"  id="ld6">
+    <label for="ld6"> d6 </label>
+    
+    <input type="radio"  name="dice" placeholder ="dice" value="d8"  id="ld8">
+    <label for="ld8"> d8 </label>
+    
+    
 </form>     
 
 <div>
@@ -60,11 +68,7 @@ if(!empty($_GET['category'])) {
 </div>
 
 <form>
-    <input type="radio" name="dice" placeholder ="dice" value="d6"  id="ld6">
-    <label for="ld6"> d6 </label>
-    
-    <input type="radio"  name="dice" placeholder ="dice" value="d8"  id="ld8">
-    <label for="ld8"> d8 </label>
+ 
     
         
     <?php
