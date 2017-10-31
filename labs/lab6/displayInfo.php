@@ -28,6 +28,8 @@ function getUserInfo($userId) {
 <html>
     <head>
         <title> Admin: Updating User </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
 

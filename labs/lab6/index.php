@@ -2,6 +2,8 @@
 <html>
     <head>
         <title> Lab 6: Admin Login Page </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
         

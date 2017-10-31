@@ -64,6 +64,8 @@ if (isset($_GET['addUserForm'])){
 <html>
     <head>
         <title> Admin: Adding New User </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
 

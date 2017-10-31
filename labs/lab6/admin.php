@@ -29,6 +29,8 @@ function displayUsers() {
 <html>
     <head>
         <title>Admin Page </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
         <script>
             
             function confirmDelete(firstName) {
