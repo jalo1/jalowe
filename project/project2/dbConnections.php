@@ -5,7 +5,7 @@
 function getDatabaseConnection(){
     
     $host = 'localhost';//cloud 9
-    $dbname = 'group_project_2';
+    $dbname = 'group project 2';
     $username = 'root';
     $password = '';
     

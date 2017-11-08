@@ -1,0 +1,18 @@
+[08-Nov-2017 20:07:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'group_project_2'' in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jalowe/project/project2/index.php(11): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php on line 22
+[08-Nov-2017 20:08:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_6c18d2d138244ed'' in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jalowe/project/project2/index.php(11): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php on line 22
+[08-Nov-2017 20:08:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_6c18d2d138244ed'' in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jalowe/project/project2/index.php(11): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php on line 22
