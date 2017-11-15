@@ -20,7 +20,7 @@ function roll($dnumber) {
     }
     
     if (count($successPool) > 2) {
-        echo "major success!";
+        echo "Critical Roll!";
     }
     else {
         echo "Degree of Success: ".count($successPool)." !";

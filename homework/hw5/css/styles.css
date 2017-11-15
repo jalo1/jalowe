@@ -9,12 +9,16 @@ h1 {
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 0px;
     background-color: orange;
-    font-size: 5em;
+    font-size: 7em;
     color:black;
     text-shadow:black;
 }
 header,body,div,footer,main {
     text-align: center;
+}
+images{
+    font-size: 3em;
+    margin-top: 50px;
 }
 #dice{
     margin-top: 25px;

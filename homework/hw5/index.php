@@ -3,7 +3,6 @@ include 'inc/functions.php';
 
 if(isset($_GET['layout'])) {
     $dice = $_GET['layout'];
-    echo $dice;
 }
 else {
     $dice = "d6";
@@ -18,6 +17,7 @@ else {
         <title> Almost Craps! </title>
         <meta charset="utf-8"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -26,11 +26,33 @@ else {
         </div>
         
         <div id="images">
-            <images>
-                <?php
-                    $pool = roll($dice);
-                ?>
+            <images id="PC">
+                <?=$pool = roll($dice)?>
             </images>
+            
+            <div id="button">
+                <button onclick="reveal()">DM ROLL</button>
+            </div>
+            
+            <images id="DM">
+                <?=$pool = roll($dice)?>
+            </images>
+            
+            
+            
+            <script>
+                $("#DM").hide();
+
+                function reveal() {
+                    document.getElementById("button").innerHTML = "DM rolls behind the screen!";
+                    document.getElementById("button").style.fontSize = "xx-large";
+                    document.getElementById("button").style.color = "red";
+
+                    $("#DM").show();
+                }
+
+            </script>
+            
         </div>
     </body>
 
@@ -46,15 +68,8 @@ else {
 <input type="radio" id="ld8" name="layout" value="d8" <?= ($_GET['layout']=='d8')?"checked":""  ?> >
 <label for="ld8"> d8 </label>
 
-<button onclick="myFunction()">Reload page</button>
+<button onclick="myFunction()">Roll!</button>
 </form>
-
-
-<script>
-function myFunction() {
-    location.reload();
-}
-</script>
 
 
     <footer>
