@@ -74,6 +74,8 @@ else {
 
     <footer>
         5+ is a success in dice pool rolling, 3 or more success is a critical roll!
+        <img src="img/buddy_verified.png">
     </footer>
+    
 
 </html>
