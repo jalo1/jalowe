@@ -1,0 +1,131 @@
+START
+<?php
+include 'inc/functions.php';
+include 'dbConnection.php';
+
+$conn = getDatabaseConnection();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Midterm </title>
+        <meta charset="utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+    <?=test()?>
+    </body>
+</html>
+
+
+
+
+
+
+
+CSS:
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#_1 #id
+.something #class
+
+
+
+PHP:
+
+
+
+
+
+HTML:
+
+<head> #more or less the standard opener
+    <title> Almost Craps! </title>
+    <meta charset="utf-8"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+    
+<H1></H1> 
+
+
+<nav>
+<a id="main" href="hw1_main.html"> Machine Learning </a>
+</nav>
+
+
+<figures>
+<img class="link" src="img/deeplearning.png" alt="hw1_main" />
+</figures>
+
+
+<ul> #list
+   <li><a class="link" href="https://en.wikipedia.org/wiki/Machine_learning"> Machine Learning Wiki </a></li>
+   <li><a class="link" href="https://www.coursera.org/learn/machine-learning"> Take a course! </a></li>
+</ul>
+
+
+<details>
+    <summary>Academic Copyright</summary>
+    <p> Made by Jay Lowe </p>
+</details>
+     
+     
+<?php #calling functions in html
+    include 'inc/functions.php';
+    $pool = roll();
+?>
+
+
+include 'dbConnection.php';
+$conn = getDatabaseConnection();
+function getDeviceTypes() {
+    global $conn;
+    $sql = "SELECT DISTINCT(deviceType)
+            FROM `tc_device` 
+            ORDER BY deviceType";
+    
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    
+    foreach ($records as $record) {
+        
+        echo "<option> "  . $record['deviceType'] . "</option>";
+        
+    }
+}
+# WITH ASSOC ARRAY
+$sql .= " AND deviceName LIKE :deviceName"; //using named parameters 
+$namedParameters[':deviceName'] = "%" . $_GET['deviceName'] . "%";      
+
+
+<input type="radio" name="orderBy" id="orderByName" value="name"/> 
+<label for="orderByName"> Name </label>
+
+<input type="submit" value="Search!" name="submit" >
+                
+                
+session_start(); # SESSIONS STUFF
+$_SESSION['username'] = $record['username'];
+
+                
+
+GENERAL:
+${"randomValue" . $i} = rand(0,3);
+
+if(isset($_GET['keyword'])) {
+}
+
+if (!empty($_POST['category'])) {
+}
+

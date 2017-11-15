@@ -13,6 +13,8 @@ var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
 startGame();
 
 function startGame() {
+    $("#lost").hide();
+    $("#won").hide();
     pickWord();
     initBoard();
     updateBoard();
@@ -50,7 +52,9 @@ function createLetters(){
 }
 
 function checkLetter(letter) {
-    for (var i=0; i < selectedWord; i++) {
+    positions = new Array;
+    console.log(selectedWord.length)
+    for (var i=0; i < selectedWord.length; i++) {
         if (letter == selectedWord[i]) {
             positions.push(i);
         }
@@ -82,7 +86,7 @@ function updateWord(positions,letter) {
 }
 
 function replaceAt(str,index,value) {
-    return str.substr(0,index) + value + str.substr(index, value.length); 
+    return str.substr(0,index) + value + str.substr(index+value.length); 
 }
 
 
@@ -102,7 +106,7 @@ function endGame(win) {
     if(win) {
         $('#won').show();
     } else {
-        $('#won').show();
+        $('#lost').show();
     }
 }
 

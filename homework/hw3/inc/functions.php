@@ -1,11 +1,21 @@
 <?php 
 
-function roll() {
+function roll($dice) {
+                echo $dice;
     $pool = array();
     $successPool = array();
     echo "<div id='dice'>";
     for ($i=0;$i<5;$i++) {
-        $d = rand(1,6);
+        
+        if($dice="d6") {
+            $d = rand(1,6); 
+        }
+        elseif($dice="d8") {
+            $d = rand(1,8);
+            echo "d8";
+        }
+        
+        
         array_push($pool,$d);
         if ($pool[$i]>4){
            array_push($successPool,$pool[$i]);

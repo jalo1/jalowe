@@ -6,7 +6,7 @@ if(isset($_GET['layout'])) {
     echo $dice;
 }
 else {
-    $dice = "d8";
+    $dice = "d6";
 }
 
 ?>

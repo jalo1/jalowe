@@ -292,3 +292,45 @@ Stack trace:
 [16-Oct-2017 02:22:07 UTC] PHP Stack trace:
 [16-Oct-2017 02:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab5/index.php:0
 [16-Oct-2017 02:22:07 UTC] PHP   2. include() /home/ubuntu/workspace/jalowe/labs/lab5/index.php:4
+[18-Oct-2017 20:13:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 5
+[18-Oct-2017 20:13:00 UTC] PHP Stack trace:
+[18-Oct-2017 20:13:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:0
+[18-Oct-2017 20:13:00 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:31
+[18-Oct-2017 20:13:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_users' doesn't exist' in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(35): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 18
+[18-Oct-2017 20:13:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_users' doesn't exist' in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(35): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 18
+[18-Oct-2017 20:14:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.tc_users' doesn't exist' in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/lab6/admin.php(35): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 18
+[18-Oct-2017 20:18:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 21
+[18-Oct-2017 20:18:12 UTC] PHP Stack trace:
+[18-Oct-2017 20:18:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:0
+[18-Oct-2017 20:18:12 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/jalowe/labs/lab6/admin.php:40
+[25-Oct-2017 19:39:28 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/jalowe/labs/lab6/addUser.php on line 36
+[25-Oct-2017 19:39:28 UTC] PHP Stack trace:
+[25-Oct-2017 19:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab6/addUser.php:0
+[25-Oct-2017 19:42:26 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/jalowe/labs/lab6/addUser.php on line 46
+[25-Oct-2017 19:42:26 UTC] PHP Stack trace:
+[25-Oct-2017 19:42:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab6/addUser.php:0
+[27-Oct-2017 20:31:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jalowe/labs/lab6/admin.php on line 78
+[27-Oct-2017 20:38:57 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php on line 40
+[27-Oct-2017 20:38:57 UTC] PHP Stack trace:
+[27-Oct-2017 20:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php:0
+[27-Oct-2017 20:39:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php(40): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/lab6/displayInfo.php on line 19

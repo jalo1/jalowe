@@ -78,11 +78,13 @@ with iFrame, in the <a href> url call, set a target variable = "x"
 then set the <iFrame name= "x">
 
 
+-----------------------------------
+use print_r($arrayName) to display all values in array
+use echo $recordName['record'] to display specific
 
+associated arrays?
 
-
-
-
+use fetchAll vs fetch for multiple vs single sql results!
 
 
 -----------------------------------
@@ -93,3 +95,19 @@ input type text is always part of the URL
 
 http://graduateschool.usc.edu/fellowships/
 http://www.chronicle.com/article/Becoming-a-Successful/66133
+-----------------------------------
+
+SHA1 needs 40 characters
+the ? in the URL means that the form has been submitted and the server has refreshed
+jqueay $ means get whatever element that is
+aka # means get id, . gets class, etc
+$("img").attr
+$("#name").html
+
+tags, attirbutes go in tags, values are the name of the tags
+
+in javascript,
+if you use for var in word
+you'll get the index
+if you use for var of word
+you'll get the value
