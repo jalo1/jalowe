@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>AJAX: Sign Up Page</title>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
 <style type="text/css" id="diigolet-chrome-css">
+
+
+
+
 </style>
 </head>
 
@@ -34,16 +40,29 @@
             Select a County: <select id = "countyId"></select><br>
             
             Desired Username: <input type="text" id="username"><br>
-            Password: <input type="password"><br>
-            Type Password Again: <input type="password"><br>
+            Password: <input type="password" id="pass1"><br>
+            Type Password Again: <input type="password" id="pass2"><br>
+            
+            name available: <span id="tester"></span> 
+            <br>
+        
+        
+        
             <input type="submit" value="Sign up!">
+           
+           
+       
             
             
+        tester2: 
+        <div id="tester2"></div>
+        
+        
+        
             
         </fieldset>
         
-        tester: 
-        <div id="tester"></div>
+        
         
         
     </form>
@@ -66,9 +85,9 @@
             data: { "zip": $("#zip").val()},
             success: function(data,status) {
               //alert(data.city);
-              alert(data[1]);
-              if(data[1]=="undefined") {
-                  $("#city").html("zip not found!");
+              //alert(data[1]);
+              if(!data) {
+                  $("#city").text("zip not found!");
               } else {
                   $("#lat").html(data.latitude);
                   $("#long").html(data.longitude);
@@ -110,8 +129,10 @@
     
     function checkUsername() {
         //alert("hello")
+        
+        
         $.ajax({
-
+    
             type: "GET",
             url: "checkUsername.php",
             dataType: "json",
@@ -120,12 +141,11 @@
                //alert(data);
                
                if (!data) {
-                   
-                   alert("USERNAME AVAILABLE!");
-                   $("#tester").html(data.username);
+                   $("#tester").text("available!");
+                   $("#tester").css('color', 'green');
                } else {
-                   
-                   alert ("username already taken!");
+                   $("#tester").text("NOT available!");
+                   $("#tester").css('color', 'red');
                }
             
             },
@@ -138,11 +158,25 @@
     
     //event handlers
     
+    function validate() {
+        
+        var p1 = $("#pass1").val; 
+        var p2 = $("#pass2").val;
+        
+        if(p1 == p2) {
+            alert("valid")
+        }
+        else {
+            alert("invalid")
+        }
+    }
+    
     $(document).ready(  function(){
         
         $("#zip").change( function(){ getCity(); } );
         $("#stateId").change(function(){getCounties(); });
         $("#username").change( function(){ checkUsername(); } );
+        $("#pass2").change( function(){ validate(); } );
         
     } ); //documentReady
     
