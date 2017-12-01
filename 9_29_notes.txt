@@ -111,3 +111,22 @@ if you use for var in word
 you'll get the index
 if you use for var of word
 you'll get the value
+
+
+-----------------------------------
+
+jquery is a javascript library (exectued on client)
+.html is the jquery version, use .innerhtml with just javascript
+in the ajax, make sure the url is https, or matches the protocol of your url
+
+jquery dbug:
+use console to see errors, use network tab to see the api results
+
+data: { "state": $("#stateId").val()},
+state here is the value in the url, #stateId").val() is what we're passing in via jquery
+
+-----------------------------------
+
+jquery files need to exist before bootstrap files do
+personal css styles need to be after bootstrap files to overwrite them
+make sure that inside a tags id value that it has '' around it, id = '1'

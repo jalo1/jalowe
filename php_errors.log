@@ -22,3 +22,27 @@
 [13-Sep-2017 19:44:48 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/jalowe/practice/php_arrays.php on line 47
 [13-Sep-2017 19:44:48 UTC] PHP Stack trace:
 [13-Sep-2017 19:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/practice/php_arrays.php:0
+[01-Dec-2017 20:55:36 UTC] PHP Warning:  move_uploaded_file(gallery/30175_easy_pumpkin_pie.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:55:36 UTC] PHP Stack trace:
+[01-Dec-2017 20:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:55:36 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
+[01-Dec-2017 20:55:36 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8yznx6' to 'gallery/30175_easy_pumpkin_pie.jpg' in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:55:36 UTC] PHP Stack trace:
+[01-Dec-2017 20:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:55:36 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
+[01-Dec-2017 20:56:22 UTC] PHP Warning:  move_uploaded_file(gallery/30175_easy_pumpkin_pie.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:56:22 UTC] PHP Stack trace:
+[01-Dec-2017 20:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:56:22 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
+[01-Dec-2017 20:56:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHquXSW' to 'gallery/30175_easy_pumpkin_pie.jpg' in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:56:22 UTC] PHP Stack trace:
+[01-Dec-2017 20:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:56:22 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
+[01-Dec-2017 20:56:29 UTC] PHP Warning:  move_uploaded_file(gallery/30175_easy_pumpkin_pie.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:56:29 UTC] PHP Stack trace:
+[01-Dec-2017 20:56:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:56:29 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
+[01-Dec-2017 20:56:29 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTW8maf' to 'gallery/30175_easy_pumpkin_pie.jpg' in /home/ubuntu/workspace/jalowe/labs/index.php on line 5
+[01-Dec-2017 20:56:29 UTC] PHP Stack trace:
+[01-Dec-2017 20:56:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/index.php:0
+[01-Dec-2017 20:56:29 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/jalowe/labs/index.php:5
