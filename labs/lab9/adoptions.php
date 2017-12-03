@@ -20,7 +20,7 @@
 <script>
 
 $( document ).ajaxStart(function() {
-  $( "#test" ).html( "Triggered ajaxStart handler." );
+  $( "#test" ).html( "Triggered ajaxStart handler. LOAD IMG!" );
 });
 
     $(document).ready( function(){
@@ -65,7 +65,7 @@ $( document ).ajaxStart(function() {
 </script>            
 
 <div id="tester">
-    hello
+    load image here
 </div>
 
 
