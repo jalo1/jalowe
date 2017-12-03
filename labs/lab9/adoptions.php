@@ -2,7 +2,6 @@
     include 'inc/header.php';
     
      function getPetList() {
-            include '../../dbConnection.php';
             $conn = getDatabaseConnection("c9");
 
 
@@ -19,6 +18,10 @@
 ?>
   
 <script>
+
+$( document ).ajaxStart(function() {
+  $( "#test" ).html( "Triggered ajaxStart handler." );
+});
 
     $(document).ready( function(){
         
@@ -61,6 +64,11 @@
     
 </script>            
 
+<div id="tester">
+    hello
+</div>
+
+
 <?php
     
         $pets = getPetList();
@@ -76,6 +84,8 @@
         }
 
 ?>
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="petInfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

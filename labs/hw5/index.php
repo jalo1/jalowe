@@ -1,3 +1,16 @@
+<?php
+function updateDatabase() {
+    include '../../dbConnection.php';
+    $conn = getDatabaseConnection("timestamps");
+    
+    $sql = "INSERT INTO `ts_stuff` (`userData`, `time`) 
+            VALUES ('test', '2017-11-29');";  
+            
+    $stmt = $conn->prepare($sql);
+        $stmt->execute();
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,26 +23,23 @@
 
 <body>
     <form>
-
-    Pokemon ID (use numbers):
-    <input type="text" name="pID">
-    
-    Extended Info:
-    <input type="radio" name="exinfo" value="yes">
-    <br>
-    
-    <input id="btn" type="button" value="search!" />
-    <br>
-    Name: <span id="name" value="entry"></span> <br>
-    Height: <span id="height"></span> <br>
-    Weight: <span id="weight"></span> <br>
-    Tester: <span id="test"></span> <br>
+        Pokemon ID (use numbers):
+        <input type="text" id="pID">
         
+        Extended Info:
+        <input type="radio" name="exinfo" value="yes">
+        <br>
+        
+        <input id="btn" type="button" value="search!" />
+        <br>
+        Name: <span id="name" value="entry"></span> <br>
+        Height: <span id="height"></span> <br>
+        Weight: <span id="weight"></span> <br>
+        Tester: <span id="test"></span> <br>
     </form>
 
     <iframe src="displayDatabase.php"></iframe>
-
-
+    
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script>
     
@@ -39,11 +49,11 @@
     function test() {
     //var id=$("#pID").val();
     //$("#test").text(id);
-
+    alert($("#pID").val());
     $.ajax({
             type: "GET",
-            //url: "https://pokeapi.co/api/v2/pokemon/"+$("#pID").val()+"/",
-            url: "https://pokeapi.co/api/v2/pokemon/"+"1"+"/",
+            url: "https://pokeapi.co/api/v2/pokemon/"+$("#pID").val()+"/",
+            //url: "https://pokeapi.co/api/v2/pokemon/"+"1"+"/",
             dataType: "json",
             data: { },
             success: function(data,status) {
@@ -66,28 +76,11 @@
         alert(id)
     }        
 
-    function updateDatabase() {
-        <?php
-            include '../../dbConnection.php';
-            $conn = getDatabaseConnection();
-            
-            $sql = "INSERT INTO `ts_stuff` (`userData`, `time`) 
-                    VALUES ('test', '2017-11-29');";  
-                    
-            $stmt = $conn->prepare($sql);
-            $stmt->execute();
-        ?>
-    }
-            
       $(document).ready(function() {
         $('#btn').click(function() {test();});
-        
-        $("#pID").change( function(){ getID(); } );
-        
-        $('#pID').on('change', function () { getID(); }).change();
-          
+        //$("#pID").change( function(){ getID(); } );
+        //$('#pID').on('change', function () { getID(); }).change();
       } ); 
-
     </script>
     
     

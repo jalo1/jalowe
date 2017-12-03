@@ -1,4 +1,38 @@
 <!DOCTYPE html>
+
+<?php
+include '../../dbConnection.php';
+
+function fillCar() {
+  $conn = getDatabaseConnection("c9");
+  
+  $sql = "SELECT *
+          FROM adoptees"; 
+          
+  $stmt = $conn->prepare($sql);
+  $stmt->execute();
+  $records = $stmt->fetchAll(PDO::FETCH_ASSOC);//expecting only one record
+
+  echo "<div class='carousel-item active'>
+      <img class='d-block w-100' src='img/tiger.jpg' alt='First slide'>
+  </div>";
+
+  foreach($records as $record) {
+    echo "<div class='carousel-item'>
+    <img class='d-block w-100' src=img/".strtolower($record['name']).".jpg>
+    </div>";
+  }
+  
+  
+  
+  
+}
+
+?>
+
+
+
+
 <html>
     <head>
         <title> CSUMB: Pet Shelter </title>

@@ -1,6 +1,6 @@
 <?php
 include '../../dbConnection.php';
-$conn = getDatabaseConnection();
+$conn = getDatabaseConnection("timestamps");
 
 $sql = "SELECT *
         FROM ts_stuff"; 
