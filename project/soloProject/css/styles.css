@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    color: black;
+}
+div {
+    
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+    background-color: orange;
+    font-size: 5em;
+    color:black;
+    text-shadow:black;
+}
+header,body,div,footer,main {
+    text-align: center;
+}
+#dice{
+    margin-top: 25px;
+
+}
+#top{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 200px;
+}

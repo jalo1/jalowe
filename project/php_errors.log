@@ -16,3 +16,427 @@ Stack trace:
 #1 /home/ubuntu/workspace/jalowe/project/project2/index.php(11): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/jalowe/project/project2/dbConnections.php on line 22
+[07-Dec-2017 19:27:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 30
+[07-Dec-2017 19:29:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 30
+[07-Dec-2017 19:30:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:31:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:33:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:38:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:44:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:46:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:46:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:48:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:49:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 28
+[07-Dec-2017 19:49:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 19:49:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 20:15:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 20:15:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 20:18:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 20:18:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 27
+[07-Dec-2017 20:19:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 33
+[07-Dec-2017 20:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 33
+[07-Dec-2017 20:20:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 33
+[07-Dec-2017 20:21:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/addEntry.php on line 33
+[07-Dec-2017 20:27:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lastName' in 'order clause'' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(18): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(54): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 18
+[08-Dec-2017 02:12:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lastName' in 'order clause'' in /home/ubuntu/workspace/jalowe/project/soloProject/user.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/user.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/user.php(39): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/user.php on line 13
+[08-Dec-2017 02:15:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 30
+[08-Dec-2017 02:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:17:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:17:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:18:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:18:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:18:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.sp_pokemon' doesn't exist' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:19:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.sp_pokemon' doesn't exist' in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/deleteUser.php on line 9
+[08-Dec-2017 02:23:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(54): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:27:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(54): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:28:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(53): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:30:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:30:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:30:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:32:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:32:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:32:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:33:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:33:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(55): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 32
+[08-Dec-2017 02:34:00 UTC] PHP Fatal error:  Call to undefined function getUserInfo() in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 45
+[08-Dec-2017 02:34:00 UTC] PHP Stack trace:
+[08-Dec-2017 02:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:0
+[08-Dec-2017 02:34:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 52
+[08-Dec-2017 02:35:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 52
+[08-Dec-2017 02:38:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:40:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE pokeID = '42'' at line 6' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(53): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 53
+[08-Dec-2017 02:40:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE pokeID = '42'' at line 6' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 46
+[08-Dec-2017 02:40:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE pokeID = '42'' at line 6' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 46
+[08-Dec-2017 02:41:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:41:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:41:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:43:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:43:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:45:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 02:52:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:03:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:03:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:06:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:07:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:09:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:09:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:11:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:12:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(58): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 33
+[08-Dec-2017 03:17:00 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 55
+[08-Dec-2017 03:17:19 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 54
+[08-Dec-2017 03:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(34): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(65): getUserInfo(NULL)
+#2 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(88): go()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 34
+[08-Dec-2017 03:28:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(34): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(65): getUserInfo(NULL)
+#2 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(88): go()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 34
+[08-Dec-2017 17:01:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 104
+[08-Dec-2017 17:06:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY pokeID' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(37): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(81): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 37
+[08-Dec-2017 17:06:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY pokeID' at line 2' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(37): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(81): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 37
+[08-Dec-2017 17:09:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 17:10:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 17:10:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 17:10:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 17:10:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 17:15:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1111 Invalid use of group function' in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(36): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/project/soloProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/admin.php on line 36
+[08-Dec-2017 18:43:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dbID' in 'field list'' in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/project/soloProject/updateUser.php on line 50

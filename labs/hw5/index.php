@@ -4,7 +4,7 @@ function updateDatabase() {
     $conn = getDatabaseConnection("timestamps");
     
     $sql = "INSERT INTO `ts_stuff` (`userData`, `time`) 
-            VALUES ('test', '2017-11-29');";  
+            VALUES ('new', '2017-11-29');";  
             
     $stmt = $conn->prepare($sql);
         $stmt->execute();
@@ -49,7 +49,6 @@ function updateDatabase() {
     function test() {
     //var id=$("#pID").val();
     //$("#test").text(id);
-    alert($("#pID").val());
     $.ajax({
             type: "GET",
             url: "https://pokeapi.co/api/v2/pokemon/"+$("#pID").val()+"/",
