@@ -419,3 +419,109 @@ Stack trace:
 [03-Dec-2017 20:34:37 UTC] PHP Stack trace:
 [03-Dec-2017 20:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/lab9/adoptions.php:0
 [03-Dec-2017 20:34:37 UTC] PHP   2. getPetList() /home/ubuntu/workspace/jalowe/labs/lab9/adoptions.php:66
+[10-Dec-2017 02:33:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'field list'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 10
+[10-Dec-2017 02:37:23 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 23
+[10-Dec-2017 02:37:23 UTC] PHP Stack trace:
+[10-Dec-2017 02:37:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[10-Dec-2017 02:37:23 UTC] PHP   2. history() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:61
+[10-Dec-2017 02:37:33 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 23
+[10-Dec-2017 02:37:33 UTC] PHP Stack trace:
+[10-Dec-2017 02:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[10-Dec-2017 02:37:33 UTC] PHP   2. history() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:61
+[10-Dec-2017 21:48:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 16
+[10-Dec-2017 21:48:19 UTC] PHP Stack trace:
+[10-Dec-2017 21:48:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[10-Dec-2017 21:48:19 UTC] PHP   2. history() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:61
+[10-Dec-2017 21:48:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 16
+[10-Dec-2017 21:48:41 UTC] PHP Stack trace:
+[10-Dec-2017 21:48:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[10-Dec-2017 21:48:41 UTC] PHP   2. history() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:61
+[10-Dec-2017 21:48:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 16
+[10-Dec-2017 21:48:59 UTC] PHP Stack trace:
+[10-Dec-2017 21:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[10-Dec-2017 21:48:59 UTC] PHP   2. history() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:61
+[11-Dec-2017 02:34:20 UTC] PHP Fatal error:  Call to undefined function history() in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 57
+[11-Dec-2017 02:34:20 UTC] PHP Stack trace:
+[11-Dec-2017 02:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[11-Dec-2017 02:34:41 UTC] PHP Fatal error:  Call to undefined function history() in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 57
+[11-Dec-2017 02:34:41 UTC] PHP Stack trace:
+[11-Dec-2017 02:34:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jalowe/labs/hw5/index.php:0
+[11-Dec-2017 04:28:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(77): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 30
+[11-Dec-2017 04:29:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                FROM ts_stuff' at line 1' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(77): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 30
+[11-Dec-2017 04:31:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(79): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 32
+[11-Dec-2017 04:32:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(79): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 32
+[11-Dec-2017 04:32:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(79): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 32
+[11-Dec-2017 04:32:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(79): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 32
+[11-Dec-2017 04:32:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(79): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 32
+[11-Dec-2017 04:34:13 UTC] PHP Parse error:  syntax error, unexpected '"SELECT COUNT(userData) ' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 29
+[11-Dec-2017 04:35:16 UTC] PHP Parse error:  syntax error, unexpected '"SELECT COUNT(userData) ' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 28
+[11-Dec-2017 04:35:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'charmeleon' in 'where clause'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(78): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 31
+[11-Dec-2017 04:35:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(78): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 31
+[11-Dec-2017 04:36:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(78): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 31
+[11-Dec-2017 04:36:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(78): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 31
+[11-Dec-2017 04:36:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'charmeleon' in 'where clause'' in /home/ubuntu/workspace/jalowe/labs/hw5/index.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jalowe/labs/hw5/index.php(78): history()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jalowe/labs/hw5/index.php on line 31
